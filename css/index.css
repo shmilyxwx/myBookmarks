@@ -1,0 +1,29 @@
+main {
+  text-align: center;
+}
+main .wrapper {
+  display: inline-block;
+}
+main .wrapper div {
+  margin-top: -1px;
+}
+main .wrapper div kbd {
+  border: 1px solid red;
+  width: 4em;
+  height: 4em;
+  display: inline-block;
+  position: relative;
+  line-height: 3em;
+  margin-left: -1px;
+}
+main .wrapper div kbd button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: none;
+  font-size: 12px;
+  opacity: 0.5;
+}
+main .wrapper div kbd:hover button {
+  display: inline-block;
+}
